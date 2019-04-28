@@ -13,5 +13,7 @@ public class BootOrderServiceConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(BootOrderServiceConsumerApplication.class, args);
     }
-
+public void say(){
+        System.out.println("aaa");
+}
 }
